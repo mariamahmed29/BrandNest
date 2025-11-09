@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrandNest</title>
+    <link rel="stylesheet" href="./bootstrap-files/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--================================= HEADER NAVBAR =================================-->
+    
+    <header>
+        <nav class="navbar">
+            <div class="logo">Brand<span>Nest</span></div>
+
+            <div id="menu-toggle" class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-buttons">
+                <button class="contact-btn">Contact Us</button>
+                <button class="get-btn">Get a Quote</button>
+            </div>
+        </nav>
+    </header>
+
+    <!--================================= MAIN =================================-->
+    <main>
+        <!--================================= HERO SECTION =================================-->
+        <section id="home"  class="hero-sec">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Building Digital Presence That Delivers Impact.</h1>
+                    <p>Trusted by growing businesses and top brands to manage their online visibility and performance.</p>
+                    <button class="contact-btn">Contact Us</button>
+                    <button class="get-btn">Get a Quote</button>
+                </div>
+            </div>
+        </section>
+
+        <!--================================= ABOUT SECTION =================================-->
+        <section id="about" class="about-sec light">
+            <div class="container about-container">
+                <div class="about-text">
+                <h2>About <span>BrandNest</span></h2>
+                <p>
+                    At <strong>BrandNest</strong>, we help businesses grow by creating strong
+                    online identities, driving engagement, and delivering measurable results.
+                    Our team blends creativity with strategy to turn your digital presence into
+                    real success.
+                </p>
+                    <button class="learn-more">Learn More</button>
+                </div>
+
+                <div class="about-img">
+                    <img src="./image/about-img.jpg" alt="marketing team working">
+                </div>
+            </div>
+        </section>
+
+        <!--================================= SERVICES SECTION  =================================-->
+        <section id="services" class="services-sec">
+            <h2>Our Services</h2>
+            <p class="section-intro">We help brands grow and stand out through creative digital strategies and impactful design.</p>
+
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h3>Social Media Marketing</h3>
+                        <p>We build strong online communities by creating engaging content and managing your social platforms with strategy and creativity.</p>
+                    </div>
+
+                    <div class="carousel-item">
+                        <h3>Brand Identity Design</h3>
+                        <p>From logos to color palettes — we craft unique brand identities that reflect your values and attract your ideal audience.</p>
+                    </div>
+
+                    <div class="carousel-item">
+                        <h3>SEO Optimization</h3>
+                        <p>Boost your visibility and climb search engine rankings with data-driven SEO strategies tailored to your goals.</p>
+                    </div>
+
+                    <div class="carousel-item">
+                        <h3>Content Creation</h3>
+                        <p>Our creative team produces compelling content that tells your story and keeps your audience coming back for more.</p>
+                    </div>
+
+                    <div class="carousel-item">
+                        <h3>Web Design & Development</h3>
+                        <p>Modern, responsive, and user-friendly websites designed to convert visitors into loyal customers.</p>
+                    </div>
+
+                    <div class="carousel-item">
+                        <h3>Paid Ads Management</h3>
+                        <p>Maximize your ROI with expertly managed ad campaigns across Google, Facebook, and Instagram.</p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+
+        <!--================================= CONTACT SECTION  =================================-->
+        <section id="contact" class="contact-sec">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p class="section-intro">
+                Have a project in mind? Let's bring your ideas to life. Reach out to us anytime!
+                </p>
+
+                <form class="contact-form">
+                    <input type="text" id="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="contact-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="alt-contact">
+                <p>Or connect with us directly:</p>
+                <a href="mailto:brandnest@email.com">📧 brandnest@email.com</a> |
+                <a href="https://wa.me/201234567890" target="_blank">💬 WhatsApp</a>
+            </div>
+        </footer>
+    </main>
+
+    <script src="./bootstrap-files/bootstrap.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
